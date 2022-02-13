@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Interactivities</title> 
+    <script type="text/javascript" src="script/horstmann_all_min.js"></script> 
+    <link type="text/css" rel="stylesheet" href="css/horstmann_all_min.css"></link>
+  <script type="text/javascript" src="assets/receiveMessage.js"></script> 
+  <style type='text/css'>
+     ol.interactivities > li {
+       list-style: none;
+       margin-bottom: 2em;
+     }
+     body {
+       margin-left: 2em;
+       margin-right: 2em;
+       overflow-y: visible;
+     }
+    </style>
+  </head> 
+  <body>
+   <ol class='interactivities' id='interactivities'>
+<li title='ebook-bc-3-ch01-sec05-walkthrough-1' id='ebook-bc-3-ch01-sec05-walkthrough-1'><div class='hc-included'>
+<div>
+  <p>Observe this sequence of assignment statements and update the <code>Output</code> column with the program’s output as each statement executes.</p> 
+  <div class='horstmann_walkthrough'>
+    <pre>int main()
+{
+  printf("Hi\n");
+  printf("there\n");
+  printf("Hi%s", "there");
+  printf("%d", 39 + 3);
+  printf("39+3");
+  return 0;
+}
+  </pre> 
+    <table>
+      <tr>
+        <th>Output</th> 
+      </tr> 
+    </table> 
+    <script type='text/javascript'>//<![CDATA[
+				horstmann_walkthrough.setup.push([
+{variable: 'Output', answer: 'Hi', line: 3},
+{variable: 'Output', answer: 'there'},
+{variable: 'Output', answer: 'Hithere'},
+{variable: 'Output', answer: 42},
+{variable: 'Output', answer: '39+3'},
+])
+   //]]> </script> 
+  </div> 
+</div>
+</div></li>
+</ol>
+  <div class='vstreport'></div>
+</body></html>
